@@ -1,0 +1,28 @@
+tab[first-visible-tab=true][last-visible-tab=true],
+tab[first-visible-tab=true][last-visible-tab=true] + #tabbrowser-arrowscrollbox-periphery{
+  display:none!important;
+}
+#tabbrowser-tabs, #tabbrowser-arrowscrollbox {min-height: 0 !important;}
+#navigator-toolbox {
+  max-height: 2px;
+  overflow: hidden;
+  /*transition: ease all 5s;*/
+}
+
+#main-window #navigator-toolbox:hover,
+#main-window #navigator-toolbox:focus-within
+{
+  max-height: unset;
+  overflow: unset;
+/*  animation: 0s pop-in;
+  animation-fill-mode: both;
+  animation-delay: 5s;
+  */
+}
+
+/*
+@keyframes pop-in {
+  from {overflow: hidden}
+  to {overflow: unset}
+}
+*/
