@@ -1,0 +1,49 @@
+{
+  "workbench.colorTheme": "Syntax Dark",
+  "workbench.startupEditor": "none",
+  "files.autoSave": "onFocusChange",
+  "editor.fontSize": 11,
+  "terminal.integrated.fontSize": 10,
+  "editor.fontFamily": "'JetBrains Mono NL', 'Droid Sans Mono', 'monospace', monospace",
+  "editor.renderWhitespace": "trailing",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.defaultFormatter": "batisteo.vscode-django",
+  "window.menuBarVisibility": "toggle",
+  "workbench.sideBar.location": "right",
+  "autoHide.sideBarDelay": 250,
+  "pdf-preview.default.sidebar": true,
+  "html.format.templating": true,
+  "html-css-class-completion.enableEmmetSupport": true,
+  "jupyter.disableJupyterAutoStart": true,
+  "workbench.iconTheme": "chalice-icon-theme",
+  "editor.fontWeight": "500",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "editor.linkedEditing": true,
+  "editor.formatOnSave": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.showTabs": false,
+  "editor.minimap.autohide": true,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "cmake.buildTask": true,
+  "cmake.configureOnOpen": true,
+  "debug.onTaskErrors": "showErrors",
+  "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+  "C_Cpp.default.includePath": [
+    "/usr/include/c++/11",
+    "/usr/include/x86_64-linux-gnu/c++/11",
+    "/usr/include/c++/11/backward",
+    "/usr/lib/gcc/x86_64-linux-gnu/11/include",
+    "/usr/local/include",
+    "/usr/include/x86_64-linux-gnu",
+    "/usr/include"
+  ],
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "[django-html]": {
+    "editor.defaultFormatter": "monosans.djlint",
+  },
+  "djlint.useVenv": false
+}

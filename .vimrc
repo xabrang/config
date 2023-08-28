@@ -1,11 +1,12 @@
 syntax on
+set tabstop=4
+set shiftwidth=4
 set number
 set hlsearch
-set wildmenu
-set smartindent smarttab smartcase
-set expandtab
-set tabstop=2
-set shiftwidth=2
-set title
-set showtabline=1
 set bg=dark
+set incsearch
+set ai
+set wildmenu
+set ruler
+set ls=1
+colorscheme pablo
