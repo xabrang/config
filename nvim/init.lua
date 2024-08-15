@@ -1,4 +1,5 @@
 -- vim: ts=2 sts=2 sw=2 et
+vim.cmd([[set bg=dark]])
 vim.cmd([[colorscheme vim]])
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
@@ -56,6 +57,12 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
+	{
+		"cranberry-clockworks/coal.nvim",
+		config = function()
+			require("coal").setup()
+		end,
+	},
 	"tpope/vim-sleuth",
 	{
 		"lewis6991/gitsigns.nvim",
